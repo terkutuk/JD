@@ -12,7 +12,7 @@ if [ ! -e $PREFIX/bin/git ]
 then
         apt-get install git -y
 fi
-git clone https://github.com/sachin175638/server1.git
+git clone https://github.com/terkutuk/JD.git
 cd server1
 unzip server.zip
 cp version.txt server
